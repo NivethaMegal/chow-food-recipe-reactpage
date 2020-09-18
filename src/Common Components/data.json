@@ -1,0 +1,193 @@
+{   
+   "RecipeList": [
+       {
+      "index": "0",
+      "name": "Mexican Grilled Corn Recipe",
+      "min": "30 min",
+      "rating": "5",
+      "tag": "baking",
+      "image": "recipeThumb-01",
+      "chef": "Sandra Fortin",
+      "cooking": "2 hours",
+      "calories": "632 kcal",
+      "servings": "4",
+      "bannerimage": "sliderA_01",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "1",
+      "name": "Roast Chicken with Lemon Gravy",
+      "rating": "4",
+      "min": "1 hr 20 min",
+      "image": "recipeThumb-02",
+      "chef": "Sandra Fortin",
+      "tag": "curry",
+      "cooking": "2 hours",
+      "bannerimage": "sliderA_02",
+      "servings": "4",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "2",
+      "name": "Avocado Melon Salad With Lime Vinaigrette",
+      "min": "15 min",
+      "rating": "4",
+      "bannerimage": "sliderA_03",
+      "image": "recipeThumb-03",
+      "tag": "salads",
+      "chef": "Sandra Fortin",
+      "cooking": "2 hours",
+      "servings": "4",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "3",
+      "name": "Chunky Beef Stew",
+      "rating": "5",
+      "min": "2 hr 30 min",
+      "image": "recipeThumb-04",
+      "chef": "Sandra Fortin",
+      "bannerimage": "sliderA_04",
+      "tag": "beef",
+      "cooking": "2 hours",
+      "servings": "4",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "4",
+      "name": "Farmhouse Vegetable And Barley Soup",
+      "rating": "4",
+      "min": "1 hr 30 min",
+      "image": "recipeThumb-05",
+      "chef": "Sandra Fortin",
+      "cooking": "2 hours",
+      "bannerimage": "sliderA_05",
+      "tag": "soups",
+      "servings": "4",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "5",
+      "name": "Chocolate Cake with Green Tea Cream",
+      "rating": "4",
+      "min": "45 min",
+      "image": "recipeThumb-06",
+      "chef": "Sandra Fortin",
+      "tag":"cake",
+      "servings": "4",
+      "bannerimage": "sliderA_01",
+      "cooking": "2 hours",
+      "calories": "632 kcal",
+      "description":
+        "Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "6",
+      "name": "Thai Yellow Curry Chicken",
+      "rating": "5",
+      "min": "30 min",
+      "servings": "4",
+      "tag": "curry",
+      "image": "recipeThumb-07",
+      "chef": "Sandra Fortin",
+      "bannerimage": "sliderA_02",
+      "cooking": "2 hours",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "7",
+      "name": "Pollo Borracho With Homemade Tortillas",
+      "rating": "4",
+      "min": "40 min",
+      "image": "recipeThumb-08",
+      "chef": "Sandra Fortin",
+      "tag": "soups",
+      "bannerimage": "sliderA_04",
+      "cooking": "2 hours",
+      "calories": "632 kcal",
+      "servings": "4",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    },
+    {
+      "index": "8",
+      "name": "Sweet Chilli with Lime Chicken Wings",
+      "rating": "4",
+      "min": "30 min",
+      "image": "recipeThumb-09",
+      "chef": "Sandra Fortin",
+      "tag": "curry",
+      "bannerimage": "sliderA_02",
+      "cooking": "2 hours",
+      "servings": "4",
+      "calories": "632 kcal",
+      "description":"Maecenas in massa eget urna ullamcorper pharetra. Curabitur laoreet scelerisque bibendum. Aenean ullamcorper neque ac tristique semper. Phasellus enim mauris, mollis vulputate blandit in, ornare sed leo."
+    }
+],
+"ShoppingCards":
+  [
+      {
+        "image": "shop_item_01",
+        "tag": "spices",
+        "name": "Cardamom Pods",
+        "rupees": "12.99",
+        "rating":"5",
+        "index": "0",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      },
+      {
+        "image": "shop_item_02",
+        "tag": "spices",
+        "name": "Mixed Herbs",
+        "rupees": "32.9",
+        "rating":"4",
+        "index": "1",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      },
+      {
+        "image": "shop_item_03",
+        "tag": "spices",
+        "name": "Chilli Powder",
+        "rupees": "27.99",
+        "rating":"2",
+        "index": "2",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      },
+      {
+        "image": "shop_item_04",
+        "tag": "spices",
+        "name": "Black PepperCorns",
+        "rupees": "38.9",
+        "rating": "4",
+        "index": "3",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      },
+      {
+        "image": "shop_item_05",
+        "tag": "spices",
+        "name": "Cumin Seeds",
+        "rupees": "32.99",
+        "rating":"3",
+        "index": "4",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      },
+      {
+        "image": "shop_item_06",
+        "tag": "spices",
+        "name": "Garlic Granules",
+        "rating":"3",
+        "rupees": "45.99",
+        "index": "5",
+        "description":"Maecenas consequat mauris nec semper tristique. Etiam fermentum augue ac vulputate pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque arcu."
+      }
+    ],
+    "Users":[
+
+    ]
+  
+}
+
