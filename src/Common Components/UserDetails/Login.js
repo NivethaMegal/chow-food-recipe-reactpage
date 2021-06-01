@@ -39,27 +39,6 @@ export default function Login(props) {
       });
   };
 
-  function showNotification() {
-    const notification = new Notification('Hi , Welcome to Chow !!',
-      { body: 'Sign up for more intresting food recipes...', icon: <FaStar/> });
-    notification.onclick = () => {
-      window.location.assign('http://google.com');
-    };
-  }
-
-
-  useEffect(() => {
-    if (Notification.permission === 'granted') {
-      showNotification();
-    } else if (Notification.permission !== 'denied') {
-      Notification.requestPermission().then((permission) => {
-        if (permission === 'granted') {
-          showNotification();
-        }
-      });
-    }
-  });
-  
   return (
     <UserAuthentication>
       <LeftImage>
