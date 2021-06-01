@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import base from "../Firebase";
 import {
   Heading,
@@ -14,6 +14,7 @@ import {
   RightForm,
   Error,
 } from "./Usercss";
+import { FaStar } from "react-icons/fa";
 import UserImage from "../Asserts/receipe.19e8cda0.jpeg";
 import { useHistory } from "react-router-dom";
 export default function Signup() {
@@ -62,6 +63,26 @@ export default function Signup() {
     }
   };
 
+  function showNotification() {
+    const notification = new Notification('Hi , Welcome to Chow !!',
+      { body: 'Sign up for more intresting food recipes...', icon: <FaStar/> });
+    notification.onclick = () => {
+      window.location.assign('http://google.com');
+    };
+  }
+
+
+  useEffect(() => {
+    if (Notification.permission === 'granted') {
+      showNotification();
+    } else if (Notification.permission !== 'denied') {
+      Notification.requestPermission().then((permission) => {
+        if (permission === 'granted') {
+          showNotification();
+        }
+      });
+    }
+  });
   return (
     <UserAuthentication>
       <LeftImage>
