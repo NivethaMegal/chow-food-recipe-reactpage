@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import base from "../Firebase";
 import {
   Heading,
@@ -17,6 +17,7 @@ import {
 import { FaStar } from "react-icons/fa";
 import UserImage from "../Asserts/receipe.19e8cda0.jpeg";
 import { useHistory } from "react-router-dom";
+import firebase from "firebase";
 export default function Signup() {
   const history = useHistory();
   const [Name, setName] = useState("");
@@ -43,12 +44,15 @@ export default function Signup() {
           .then((user) => {
             let ref = base.database().ref("/Users").push();
             let key = ref.key;
-            const Ref = base.database().ref("Users/"+key).set({
-              index: key,
-              name: Name,
-              email: Email,
-              userName: UserName,
-            });
+            const Ref = base
+              .database()
+              .ref("Users/" + key)
+              .set({
+                index: key,
+                name: Name,
+                email: Email,
+                userName: UserName,
+              });
             history.push(`/login`);
           })
           .catch((error) => {
@@ -62,6 +66,34 @@ export default function Signup() {
       setErrorMessage("All fields should have atleast 6 Characters...");
     }
   };
+
+  function showNotification() {
+    const notification = new Notification('New Message from Adva Missions !!',
+      { body: 'You have one more activity to complete the mission...', });
+    notification.onclick = () => {
+      window.location.assign('http://google.com');
+    };
+  }
+
+  useEffect(() => {
+    console.log('hi');
+    navigator.serviceWorker.register('/sw.js');
+    if (Notification.permission === 'granted') {
+      showNotification();
+      navigator.serviceWorker.ready.then((registration) => {
+        registration.showNotification('Notification with ServiceWorker');
+      });
+    } else if (Notification.permission !== 'denied') {
+      Notification.requestPermission().then((permission) => {
+        if (permission === 'granted') {
+          showNotification();
+          navigator.serviceWorker.ready.then((registration) => {
+            registration.showNotification('Notification with ServiceWorker');
+          });
+        }
+      });
+    }
+  });
 
   return (
     <UserAuthentication>
