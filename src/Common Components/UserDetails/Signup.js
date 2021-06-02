@@ -67,51 +67,6 @@ export default function Signup() {
     }
   };
 
-  function showNotification() {
-    const notification = new Notification("New Message from Adva Missions !!", {
-      body: "You have one more activity to complete the mission...",
-    });
-    notification.onclick = () => {
-      window.location.assign("http://google.com");
-    };
-  }
-
-  useEffect(() => {
-    console.log("hi");
-    if ('serviceWorker' in navigator ) {
-      console.log("hi");
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register("./sw.js");
-      });
-  }
-    if (Notification.permission === "granted") {
-      console.log("hi");
-      Notification.requestPermission().then(function (permission) {
-        if (permission != "granted") {
-          alert("Notification failed!");
-          return;
-        }
-        navigator.serviceWorker.ready.then(function (registration) {
-          registration.showNotification("Hello world", {
-            body: "Here is the body!",
-          });
-        });
-      });
-      navigator.serviceWorker.ready.then((registration) => {
-        registration.showNotification("Notification with ServiceWorker");
-      });
-    } else if (Notification.permission !== "denied") {
-      Notification.requestPermission().then((permission) => {
-        if (permission === "granted") {
-          // showNotification();
-          navigator.serviceWorker.ready.then((registration) => {
-            registration.showNotification("Notification with ServiceWorker");
-          });
-        }
-      });
-    }
-  });
-
   return (
     <UserAuthentication>
       <LeftImage>
